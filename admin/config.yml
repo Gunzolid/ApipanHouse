@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Gunzolid/ApipanHouse
   branch: main
 
 media_folder: "images"

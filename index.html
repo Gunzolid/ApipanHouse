@@ -7,7 +7,6 @@
     <title>🏠 My Rental Home - ระบบจองบ้านพัก</title>
 
     <meta name="robots" content="noindex, nofollow">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -202,18 +201,6 @@
                 btn.disabled = false;
             }
         });
-    </script>
-    
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
     </script>
 </body>
 
